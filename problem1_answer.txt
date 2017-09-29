@@ -1,0 +1,26 @@
+Bryan Oliande, boliande@uci.edu, 13729240
+Christopher Lam, lamcy1@uci.edu, 58939588
+Thanh Do, thanhhd@uci.edu, 43671918
+
+Possible Candidate Keys: ABEF, ACDE, ABCE
+
+      
+Reason for ABEF: Use BEF -> C, then B - > D, resulting in ABEF. ABEF cannot be broken down any further.
+
+      
+Reason for ACDE: Use CDE - > B, then ACD -> F, resulting in ACDE. ACDE cannot be broken down any further.
+
+  
+Reason for ABCE: Use ACD -> F, then B -> D, resulting in ABCE. ABCE cannot be broken down any further.
+
+
+
+Possible Candidate Keys: AD
+     
+     
+Functional dependency that can be removed without altering the key: DEG -> H
+
+     	       
+Reason: Use AF -> E, then A -> BCF, then D -> GH, resulting in AD. AD cannot be broken down any further. DEG -> H was not needed.
+
+
